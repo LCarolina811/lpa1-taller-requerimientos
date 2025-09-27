@@ -21,14 +21,59 @@ Revisar la documentación en [`./docs`](./docs)
 
 ### Requerimientos
 
-TODO: Corregir la lista de requerimientos:
-- **R1**: El sistema debe ...
-- **R2**: El sistema debe ...
-<br>...<br>
-- **Rn**: El sistema debe ...
-- **Rm**: El sistema debe ...
+# Sistema de Agencia de Viajes
 
-### Diseño
+## 🎯 Alcance
+El sistema permitirá:
+- Registrar hoteles y habitaciones con toda su información relevante.
+- Gestionar disponibilidad, precios, temporadas y estados de servicio.
+- Permitir a los clientes buscar, reservar, cancelar y pagar habitaciones.
+- Ofrecer herramientas de calificación y comentarios para retroalimentación.
+
+---
+
+## 👥 Usuarios del Sistema
+- **Administrador**: gestiona hoteles, habitaciones, promociones y calendarios.  
+- **Cliente**: busca, reserva, paga y deja opiniones.
+
+---
+
+## ✅ Requerimientos Funcionales
+
+### 1. Gestión de Hoteles
+- RF1: Registrar hoteles con nombre, dirección, teléfono, correo, ubicación geográfica, descripción y fotos.  
+- RF2: Activar o inactivar hoteles según su disponibilidad.  
+- RF3: Gestionar ofertas y promociones de hoteles.  
+
+### 2. Gestión de Habitaciones
+- RF4: Registrar habitaciones con tipo, descripción, precio, capacidad, servicios y fotos.  
+- RF5: Asignar estado a una habitación (activa, en mantenimiento, remodelación o limpieza).  
+- RF6: Manejar un calendario por habitación con disponibilidad y reservas.  
+- RF7: Definir precios dinámicos según temporada y ocupación.  
+
+### 3. Reservas
+- RF8: Realizar reservas en línea seleccionando fechas y habitaciones disponibles.  
+- RF9: Confirmar reservas mediante pago (en línea o al llegar, según política).  
+- RF10: Gestionar cancelaciones de reservas aplicando políticas de reembolso.  
+- RF11: Bloquear habitaciones mientras estén reservadas o inactivas.  
+
+### 4. Clientes
+- RF12: Registrar clientes con nombre completo, teléfono, correo y dirección.  
+- RF13: Permitir búsqueda de habitaciones por fecha, ubicación, precio y calificación.  
+- RF14: Mostrar información detallada de cada habitación (servicios, fotos, comentarios, calificación).  
+
+### 5. Opiniones y Calificaciones
+- RF15: Permitir que los clientes califiquen y comenten su experiencia tras una estancia.  
+- RF16: Calcular calificaciones promedio por habitación y generales por hotel.  
+
+---
+
+## ⚙️ Requerimientos No Funcionales
+- RNF1: **Usabilidad** → Interfaz intuitiva y adaptable a dispositivos móviles.  
+- RNF2: **Disponibilidad** → Acceso 24/7 con mínimo tiempo de inactividad.  
+- RNF3: **Seguridad** → Protección de datos personales y financieros con cifrado.  
+- RNF4: **Escalabilidad** → Soporte para múltiples hoteles, clientes y reservas concurrentes.  
+- RNF5: **Rendimiento** → Respuesta en búsquedas y reservas en menos de 3 segundos.  
 
 TODO: Crear el diagrama de clases:
 
