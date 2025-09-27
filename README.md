@@ -77,7 +77,7 @@ El sistema permitirá:
 - RNF5: **Rendimiento** → Respuesta en búsquedas y reservas en menos de 3 segundos.  
 
 
-- Ver el [Diagrama de Clases](refs/diagrama.md) para más detalles.
+- Ver el [Diagrama de Clases](diagrama.md) para más detalles.
 
 
 ### Tárifas
