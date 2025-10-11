@@ -101,8 +101,6 @@ El sistema permitirá:
 
 ## Instalación
 
-TODO: Corregir la explicación de la instalación - Morbi quam lectus, tempus sit amet mi non, facilisis dignissim erat. Aenean tortor libero, rhoncus eu eleifend ut, volutpat id nisi. Ut porta eros at ante rutrum pharetra. Integer nec nulla dictum, vestibulum ligula id, hendrerit ex. Morbi eget tortor metus.
-
 1. Clonar el proyecto
 ```bash
 git clone https://github.com/UR-CC/lpa1-taller-requerimientos.git
@@ -121,8 +119,6 @@ pip install -r requirements.txt
 ```
     
 ## Ejecución
-
-TODO: Corregir la explicación de la ejecución - Maecenas sed lorem at arcu varius mollis. Sed eleifend nulla ut blandit interdum. Donec sollicitudin nunc at orci facilisis dignissim. Donec at arcu luctus, commodo magna eget, blandit leo.
 
 1. Ejecutar el proyecto
 ```bash
